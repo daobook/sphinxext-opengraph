@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, FIRST
+# This file is distributed under the same license as the sphinxext-opengraph
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinxext-opengraph \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-25 09:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../../README.md:2
+msgid "sphinxext-opengraph"
+msgstr ""
+
+#: ../../../README.md:4
+#, python-format
+msgid ""
+"[![Build](https://github.com/wpilibsuite/sphinxext-"
+"opengraph/workflows/Test%20and%20Deploy/badge.svg)](https://github.com/wpilibsuite"
+"/sphinxext-opengraph/actions) [![Code style: "
+"Black](https://img.shields.io/badge/code%20style-"
+"Black-000000.svg)](https://github.com/psf/black)"
+msgstr ""
+
+#: ../../../README.md:4
+msgid "Build"
+msgstr "构建"
+
+#: ../../../README.md:4
+msgid "Code style: Black"
+msgstr "代码风格：黑色"
+
+#: ../../../README.md:7
+msgid ""
+"Sphinx extension to generate [Open Graph metadata](https://ogp.me/) for "
+"each page of your documentation."
+msgstr ""
+"Sphinx 插件，用于生成 Sphinx 文档的 [Open Graph 元数据](https://ogp.me/)。"
+
+#: ../../../README.md:9
+msgid "Installation"
+msgstr "安装"
+
+#: ../../../README.md:15
+msgid "Usage"
+msgstr "用法"
+
+#: ../../../README.md:16
+msgid "Just add `sphinxext.opengraph` to your extensions list in your `conf.py`"
+msgstr "仅仅需要在 `conf.py` 中添加 `sphinxext.opengraph` 到插件列表中。"
+
+#: ../../../README.md:23
+msgid "Options"
+msgstr "选项"
+
+#: ../../../README.md:24
+msgid "These values are placed in the `conf.py` of your Sphinx project."
+msgstr "这些值被放置在 Sphinx 项目的 `conf.py` 中。"
+
+#: ../../../README.md:26
+msgid ""
+"Users hosting documentation on Read The Docs *do not* need to set any of "
+"the following unless custom configuration is wanted. The extension will "
+"automatically retrieve your site URL."
+msgstr ""
+"托管在 Read The Docs 上的文档不需要设置以下任何选项，除非需要自定义配置。扩展会自动检索您的站点 URL。"
+
+#: ../../../README.md:28
+msgid "`ogp_site_url`"
+msgstr ""
+
+#: ../../../README.md:29
+msgid ""
+"This config option is very important, set it to the URL the site is being"
+" hosted on."
+msgstr ""
+"这个配置选项非常重要，请设置为站点正在托管的 URL。"
+
+#: ../../../README.md:30
+msgid "`ogp_description_length`"
+msgstr ""
+
+#: ../../../README.md:31
+msgid ""
+"Configure the amount of characters taken from a page. The default of 200 "
+"is probably good for most people. If something other than a number is "
+"used, it defaults back to 200."
+msgstr ""
+"配置从页面中获取的字符数量。默认值 200 对大多数人来说可能很好。如果使用除了数字以外的其他内容，则默认回退到 200。"
+
+#: ../../../README.md:32
+msgid "`ogp_site_name`"
+msgstr ""
+
+#: ../../../README.md:33
+msgid ""
+"This is not required. Name of the site. This is displayed above the "
+"title. Defaults to the Sphinx [`project`](https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#confval-project) config value."
+"  Set to `False` to unset and use no default."
+msgstr ""
+"这不是必需的。网站的名称。这会显示在标题上方。"
+"默认值为 Sphinx [`project`](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-project) 配置值。"
+"设置为 `False` 以取消设置并使用无默认值。"
+
+#: ../../../README.md:34
+msgid "`ogp_social_cards`"
+msgstr ""
+
+#: ../../../README.md:35
+msgid ""
+"Configuration for automatically creating social media card PNGs for each "
+"page. For more information, see [the social media cards "
+"docs](https://github.com/wpilibsuite/sphinxext-"
+"opengraph/blob/main/docs/source/socialcards.md)."
+msgstr ""
+"配置自动为每个页面创建社交媒体卡片 PNG。"
+"更多信息，请参阅 [社交媒体卡片文档](https://github.com/wpilibsuite/sphinxext-opengraph/blob/main/docs/source/socialcards.md)。"
+
+#: ../../../README.md:37
+msgid "`ogp_image`"
+msgstr ""
+
+#: ../../../README.md:38
+msgid ""
+"This is not required. Link to image to show. Note that all relative paths"
+" are converted to be relative to the root of the html output as defined "
+"by `ogp_site_url`."
+msgstr ""
+"这个不是必需的。要显示的图像的链接。请注意，所有相对路径都被转换为相对于 html 输出的根目录，由 `ogp_site_url` 配置。"
+
+#: ../../../README.md:39
+msgid "`ogp_image_alt`"
+msgstr ""
+
+#: ../../../README.md:40
+msgid ""
+"This is not required. Alt text for image. Defaults to using "
+"`ogp_site_name` or the document's title as alt text, if available. Set to"
+" `False` if you want to turn off alt text completely."
+msgstr ""
+"这个不是必需的。图像的替代文本。默认值为使用 `ogp_site_name` 或文档的标题作为替代文本（如果可用）。"
+"如果要完全关闭替代文本，请将其设置为 `False`。"
+
+#: ../../../README.md:41
+msgid "`ogp_use_first_image`"
+msgstr ""
+
+#: ../../../README.md:42
+msgid ""
+"This is not required. Set to `True` to use each page's first image, if "
+"available. If set to `True` but no image is found, Sphinx will use "
+"`ogp_image` instead."
+msgstr ""
+"这个不是必需的。将其设置为 `True` 以使用每个页面的第一张图像，如果可用。"
+"如果将其设置为 `True` 但没有图像可用，则 Sphinx 将使用 `ogp_image` 代替。"
+
+#: ../../../README.md:43
+msgid "`ogp_type`"
+msgstr ""
+
+#: ../../../README.md:44
+msgid ""
+"This sets the ogp type attribute, for more information on the types "
+"available please take a look at "
+"[https://ogp.me/#types](https://ogp.me/#types). By default it is set to "
+"`website`, which should be fine for most use cases."
+msgstr ""
+"设置 ogp 类型属性，更多信息请参阅 [https://ogp.me/#types](https://ogp.me/#types)。"
+"默认情况下，它被设置为 `website`，这应该适用于大多数用例。"
+
+#: ../../../README.md:45
+msgid "`ogp_custom_meta_tags`"
+msgstr ""
+
+#: ../../../README.md:46
+msgid "This is not required. List of custom html snippets to insert."
+msgstr "不是必需的。要插入的自定义 html 片段列表。"
+
+#: ../../../README.md:47
+msgid "`ogp_enable_meta_description`"
+msgstr ""
+
+#: ../../../README.md:48
+msgid ""
+"This is not required. When `True`, generates `<meta name=\"description\" "
+"content=\"...\">` from the page."
+msgstr ""
+"这个不是必需的。当 `True` 时，从页面生成 `<meta name=\"description\" "
+
+#: ../../../README.md:50
+msgid "Example Config"
+msgstr "配置示例"
+
+#: ../../../README.md:52
+msgid "Simple Config"
+msgstr "简单配置"
+
+#: ../../../README.md:59
+msgid "Advanced Config"
+msgstr "高级配置"
+
+#: ../../../README.md:74
+msgid "Per Page Overrides"
+msgstr "页面覆盖"
+
+#: ../../../README.md:75
+msgid ""
+"[Field lists](https://www.sphinx-doc.org/en/master/usage/restructuredtext"
+"/field-lists.html) are used to allow you to override certain settings on "
+"each page and set unsupported arbitrary Open Graph tags."
+msgstr ""
+"[字段列表](https://www.sphinx-doc.org/en/master/usage/restructuredtext"
+"/field-lists.html) 用于允许您在每个页面上覆盖某些设置，并设置不受支持的任意 Open Graph 标签。"
+
+#: ../../../README.md:77
+msgid ""
+"Make sure you place the fields at the very start of the document such "
+"that Sphinx will pick them up and also won't build them into the html."
+msgstr ""
+"确保您将字段放在文档的开头，以便 Sphinx 可以拾取它们，并且不会将它们构建到 html 中。"
+
+#: ../../../README.md:79
+msgid "Overrides"
+msgstr "覆盖"
+
+#: ../../../README.md:80
+msgid ""
+"These are some overrides that can be used on individual pages, you can "
+"actually override any tag and field lists will always take priority."
+msgstr ""
+"这些是可以在各个页面上使用的覆盖，您可以实际覆盖任何标签，字段列表总是优先。"
+
+#: ../../../README.md:82
+msgid "`:ogp_description_length:`"
+msgstr ""
+
+#: ../../../README.md:83
+msgid ""
+"Configure the amount of characters to grab for the description of the "
+"page. If the value isn't a number it will fall back to "
+"`ogp_description_length`.[^1]"
+msgstr ""
+"配置页面描述的字符数量。如果值不是数字，则回退到 `ogp_description_length`.[^1]"
+
+#: ../../../README.md:84
+msgid "`:ogp_disable:`"
+msgstr ""
+
+#: ../../../README.md:85
+msgid "Disables generation of Open Graph tags on the page.[^1]"
+msgstr "禁用页面上的 Open Graph 标签生成。[^1]"
+
+#: ../../../README.md:86
+msgid "`:og:description:`"
+msgstr ""
+
+#: ../../../README.md:87
+msgid "Lets you override the description of the page."
+msgstr "覆盖页面的描述。"
+
+#: ../../../README.md:88
+msgid "`:description:` or `.. meta::\\n :description:`"
+msgstr "`:description:` 或者 `.. meta::\\n :description:`"
+
+#: ../../../README.md:89
+msgid "Sets the `<meta name=\"description\" content=\"...\">` description."
+msgstr "设置 `<meta name=\"description\" content=\"...\">` 描述。"
+
+#: ../../../README.md:90
+msgid "`:og:title:`"
+msgstr ""
+
+#: ../../../README.md:91
+msgid "Lets you override the title of the page."
+msgstr "覆盖页面的标题。"
+
+#: ../../../README.md:92
+msgid "`:og:type:`"
+msgstr ""
+
+#: ../../../README.md:93
+msgid ""
+"Override the type of the page, for the list of available types take a "
+"look at https://ogp.me/#types."
+msgstr ""
+"覆盖页面的类型，有关可用类型的列表请参阅 https://ogp.me/#types 。"
+
+#: ../../../README.md:94
+msgid "`:og:image:`"
+msgstr ""
+
+#: ../../../README.md:95
+msgid "Set the image for the page.[^2]"
+msgstr "设置页面的图像。[^2]"
+
+#: ../../../README.md:96
+msgid "`:og:image:alt:`"
+msgstr ""
+
+#: ../../../README.md:97
+msgid "Sets the alt text. Will be ignored if there is no image set."
+msgstr "设置图像的替代文本。如果没有设置图像，则将被忽略。"
+
+#: ../../../README.md:99
+msgid "Example"
+msgstr "示例"
+
+#: ../../../README.md:100
+msgid ""
+"Remember that the fields **must** be placed at the very start of the "
+"file. You can verify Sphinx has picked up the fields if they aren't shown"
+" in the final html file."
+msgstr ""
+"记住，字段 **必须** 放在文件的开头。您可以验证 Sphinx 是否已拾取字段，如果它们没有显示在最终的 html 文件中。"
+
+#: ../../../README.md:111
+msgid "Arbitrary Tags[^2]"
+msgstr "任意标签[^2]"
+
+#: ../../../README.md:112
+msgid ""
+"Additionally, you can use field lists to add any arbitrary Open Graph tag"
+" not supported by the extension. The syntax for arbitrary tags is the "
+"same with `:og:tag: content`. For example:"
+msgstr ""
+"此外，您还可以使用字段列表添加不支持扩展的任意 Open Graph 标签。任意标签的语法与 `:og:tag: content` 相同。例如："
+
+#: ../../../README.md:121
+msgid ""
+"Note the slightly different syntax because this isn't directly an Open "
+"Graph tag."
+msgstr ""
+"注意，因为这不是直接的 Open Graph 标签，所以语法略有不同。"
+
+#: ../../../README.md:122
+msgid ""
+"Note: Relative file paths for images, videos and audio are currently "
+"**not** supported when using field lists. Please use an absolute path "
+"instead."
+msgstr ""
+"注意：当前使用字段列表时，图像、视频和音频的相对文件路径**不**支持。请改用绝对路径。"

@@ -1,0 +1,132 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-12-25 09:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/socialcards.md:1
+msgid "Social media card images"
+msgstr "社交媒体卡片图片"
+
+#: ../../source/socialcards.md:3
+msgid ""
+"This extension will automatically generate a PNG meant for sharing "
+"documentation links on social media platforms. These cards display "
+"metadata about the page that you link to, and are meant to catch the "
+"attention of readers."
+msgstr ""
+"此插件将自动生成一张 PNG 图片，用于在社交媒体平台上分享文档链接。"
+"这些卡片显示您所链接页面的元数据，旨在吸引读者的注意力。"
+
+#: ../../source/socialcards.md:6
+msgid ""
+"See [the opengraph.xyz website](https://www.opengraph.xyz/) for a way to "
+"preview what your social media cards look like. Here's an example of what"
+" the card for this page looks like:"
+msgstr ""
+"[opengraph.xyz](https://www.opengraph.xyz/) 上查看您的社交媒体卡片预览。这是此页面的卡片示例："
+
+#: ../../source/socialcards.md:15
+msgid "Disable card images"
+msgstr "禁用卡片图片"
+
+#: ../../source/socialcards.md:17
+msgid "To disable social media card images, use the following configuration:"
+msgstr "禁用此插件的社交媒体卡片图片："
+
+#: ../../source/socialcards.md:19 ../../source/socialcards.md:32
+#: ../../source/socialcards.md:52
+msgid "conf.py"
+msgstr ""
+
+#: ../../source/socialcards.md:27
+msgid "Update the top-right image"
+msgstr "更新顶部右侧图片"
+
+#: ../../source/socialcards.md:29
+msgid ""
+"By default the top-right image will use the image specified by "
+"`html_logo` if it exists. To update it, specify another path in the "
+"**`image`** key like so:"
+msgstr ""
+"默认情况下，顶部右侧的图片将使用 `html_logo` 指定的图片。要更新它，请在 **`image`** 键中指定另一个路径："
+
+#: ../../source/socialcards.md:40
+msgid "The image cannot be an SVG"
+msgstr "图片不能是 SVG 图片。"
+
+#: ../../source/socialcards.md:43
+msgid ""
+"Matplotlib does not support easy plotting of SVG images, so ensure that "
+"your image is a PNG or JPEG file, not SVG."
+msgstr ""
+"Matplotlib 不支持直接绘制 SVG 图片，因此请确保您的图片是 PNG 或 JPEG 图片，而不是 SVG。"
+
+#: ../../source/socialcards.md:46
+msgid "Customize the text font"
+msgstr "自定义文字字体"
+
+#: ../../source/socialcards.md:48
+msgid "By default, the Roboto Flex font is used to render the card text."
+msgstr "默认情况下，Roboto Flex 字体用于渲染卡片文本。"
+
+#: ../../source/socialcards.md:50
+msgid "You can specify the other font name via ``font`` key:"
+msgstr "您可以通过 `font` 键指定其他字体名称："
+
+#: ../../source/socialcards.md:60
+msgid ""
+"You might need to install an additional font package on your environment."
+" Also, note that the font name needs to be discoverable by Matplotlib "
+"FontManager. See [Matplotlib "
+"documentation](https://matplotlib.org/stable/tutorials/text/text_props.html"
+"#default-font) for the information about FontManager."
+msgstr ""
+"您可能需要在您的环境中安装额外的字体包。此外，请注意字体名称需要能被 Matplotlib 的 FontManager 识别。"
+"有关 FontManager 的信息，请参阅 [Matplotlib 文档](https://matplotlib.org/stable/tutorials/text/text_props.html#default-font)。"
+
+#: ../../source/socialcards.md:65
+msgid "Customize the card"
+msgstr "定制卡片"
+
+#: ../../source/socialcards.md:67
+msgid ""
+"There are several customization options to change the text and look of "
+"the social media preview card. Below is a summary of these options."
+msgstr ""
+"下面是一些定制选项，用于更改社交媒体预览卡片的文本和外观。下面是这些选项的摘要。"
+
+#: ../../source/socialcards.md:70
+msgid "**`site_url`**: Set a custom site URL."
+msgstr "**`site_url`**: 设置自定义站点 URL。"
+
+#: ../../source/socialcards.md:71
+msgid ""
+"**`line_color`**: Color of the border line at the bottom of the card, in "
+"hex format."
+msgstr ""
+"**`line_color`**: 卡片底部边框线的颜色，以十六进制格式表示。"
+
+#: ../../source/socialcards.md:74
+msgid "Example social cards"
+msgstr "示例社交媒体卡片"
+
+#: ../../source/socialcards.md:76
+msgid ""
+"Below are several social cards to give an idea for how this extension "
+"behaves with different length and size of text."
+msgstr ""
+"下面是一些社交媒体卡片，以展示此扩展在不同长度和大小的文本下的行为。"

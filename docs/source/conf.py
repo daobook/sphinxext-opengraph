@@ -66,8 +66,13 @@ ogp_social_cards = {
     "site_url": "sphinxext-opengraph.readthedocs.io",
     # "image": "TODO: add another image to test",
     # "line_color": "#4078c0",
+    "font": "Noto Sans CJK JP", # 支持中文字体
 }
 
 # Generate sample social media preview images
 path_script = os.path.abspath("../script/generate_social_card_previews.py")
 run(f"python {path_script}", shell=True)
+# == 国际化输出 ========================================================================
+language = 'zh_CN'
+locale_dirs = ['../../locales/']  # po files will be created in this directory
+gettext_compact = False  # optional: avoid file concatenation in sub directories.
