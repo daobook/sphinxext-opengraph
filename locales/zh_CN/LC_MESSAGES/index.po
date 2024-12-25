@@ -198,7 +198,7 @@ msgid ""
 "This is not required. When `True`, generates `<meta name=\"description\" "
 "content=\"...\">` from the page."
 msgstr ""
-"这个不是必需的。当 `True` 时，从页面生成 `<meta name=\"description\" "
+"这个不是必需的。当 `True` 时，从页面生成 `<meta name=\"description\" content=\"...\">` 。 "
 
 #: ../../../README.md:50
 msgid "Example Config"
